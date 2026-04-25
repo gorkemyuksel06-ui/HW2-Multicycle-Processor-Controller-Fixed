@@ -1,0 +1,152 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Gorkem/AppData/Local/quartus
+T_opt
+!s110 1777139630
+Vhh:KC@i@zCH3<I7?AMVD`2
+04 9 4 work testbench fast 0
+=1-4c1d967fef04-69ecffac-22-296c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U5 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+valudec
+Z2 2controller.sv|controller_testbench.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1777139619
+!i10b 1
+!s100 ]a9Y`=7Sa92`j93o1kS153
+I?JOk`FboS78Y5fBnhgDfE3
+S1
+Z5 dC:/Users/Gorkem/Desktop/HW2-Fixed
+Z6 w1777139121
+Z7 8controller.sv
+Z8 Fcontroller.sv
+!i122 2
+L0 216 29
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z11 !s108 1777139619.000000
+Z12 !s107 controller_testbench.sv|controller.sv|
+Z13 !s90 -reportprogress|300|-sv|controller.sv|controller_testbench.sv|
+!i113 0
+Z14 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcontroller
+R2
+R3
+R4
+!i10b 1
+!s100 GSadlbQ1QB_gCc9QBfg>=0
+IJ08K1^U2b^9T`7S;MC<Td0
+S1
+R5
+R6
+R7
+R8
+!i122 2
+L0 1 52
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vinstrdec
+R2
+R3
+R4
+!i10b 1
+!s100 I>a^^_KW^TVj912DQl<Tj3
+Ia0`=no[d[^<RainX_9]<C2
+S1
+R5
+R6
+R7
+R8
+!i122 2
+L0 246 17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vmaindec
+R2
+R3
+R4
+!i10b 1
+!s100 VnS<QHlEeH]Y5e]XP4TOW0
+Idh30P>[XOSigko=n=:kh>2
+S1
+R5
+R6
+R7
+R8
+!i122 2
+L0 54 161
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1
+vtestbench
+R2
+R3
+R4
+!i10b 1
+!s100 8<V;FofKTfbVa_KFoU?fP3
+IE4i0OZfN6=ekNLJQUMAIH1
+S1
+R5
+w1777043303
+8controller_testbench.sv
+Fcontroller_testbench.sv
+!i122 2
+L0 6 80
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R1

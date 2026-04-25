@@ -1,0 +1,18 @@
+C:/Users/Gorkem/Desktop/HW2-Fixed/controller_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Gorkem/Desktop/HW2-Fixed/controller_testbench.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\Gorkem\Desktop\HW2-Fixed\controller.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module controller
+-- Compiling module maindec
+-- Compiling module aludec
+-- Compiling module instrdec
+
+Top level modules:
+	controller
+
+} {} {}}
