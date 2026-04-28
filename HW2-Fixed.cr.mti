@@ -1,11 +1,33 @@
-C:/Users/Gorkem/Desktop/HW2-Fixed/controller_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Gorkem/Desktop/HW2-Fixed/controller_testbench.sv
+C:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
--- Compiling module testbench
+-- Compiling module riscv_testbench
 
 Top level modules:
-	testbench
+	riscv_testbench
 
-} {} {}} C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\Gorkem\Desktop\HW2-Fixed\controller.sv}
+} {} {}} C:/Users/Gorkem/Desktop/HW2-Fixed/controller_testbench.sv {1 {vlog -work work -vopt -sv -stats=none {C:\Users\Gorkem\Desktop\HW2-Fixed\controller_testbench.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module controller_testbench
+
+Top level modules:
+	controller_testbench
+
+} {} {}} C:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} C:/Users/Gorkem/Desktop/HW2-Fixed/top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Gorkem/Desktop/HW2-Fixed/top.sv
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module top
+-- Compiling module memory
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv
 Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
 -- Compiling module controller
 -- Compiling module maindec

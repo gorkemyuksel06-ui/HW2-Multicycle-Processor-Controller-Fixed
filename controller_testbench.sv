@@ -3,7 +3,7 @@
 // jbrake@hmc.edu
 // 4/15/2020
 
-module testbench();
+module controller_testbench();
   logic        clk;
   logic        reset;
   

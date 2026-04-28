@@ -1,8 +1,14 @@
 m255
 K4
 z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+!s12c _opt1
+R1
 !s12c _opt
-Z0 !s99 nomlopt
+R1
 !s11f vlog 2024.3 2024.09, Sep 10 2024
 13
 !s112 1.1
@@ -10,143 +16,398 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/Gorkem/AppData/Local/quartus
+Z2 dC:/Users/Gorkem/AppData/Local/quartus
 T_opt
 !s110 1777139630
 Vhh:KC@i@zCH3<I7?AMVD`2
 04 9 4 work testbench fast 0
 =1-4c1d967fef04-69ecffac-22-296c
-R0
-!s12f OEM100
-!s12b OEM100
+R1
+Z3 !s12f OEM100
+Z4 !s12b OEM100
 !s124 OEM10U5 
-!s135 nogc
-o-quiet -auto_acc_if_foreign -work work
-Z1 tCvgOpt 0
+Z5 !s135 nogc
+Z6 o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
 n@_opt
-OL;O;2024.3;79
+Z8 OL;O;2024.3;79
+R2
+T_opt1
+!s110 1777390476
+VY9<V;kX?:;Jd?:`mT:6dA2
+Z9 04 15 4 work riscv_testbench fast 0
+=1-4c1d967fef04-69f0d38a-1be-4d8c
+R1
+R3
+R4
+Z10 !s124 OEM10U12 
+R5
+R6
+R7
+n@_opt1
+R8
+R2
+T_opt2
+!s110 1777393194
+VelMBNNFCAaXS`0ePLi?L20
+R9
+=2-4c1d967fef04-69f0de27-20-541c
+R1
+R3
+R4
+R10
+R5
+o-quiet -auto_acc_if_foreign -work work +acc
+R7
+n@_opt2
+R8
+valu
+Z11 2C:/Users/Gorkem/Desktop/HW2-Fixed/datapath.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 !s110 1777393176
+!i10b 1
+!s100 5Yn[U;S4IQE=PjU@BGGfB1
+I_7Wl@d6QNcRm^C67a^8bI1
+S1
+Z14 dC:/Users/Gorkem/Desktop/HW2-Fixed
+Z15 w1777392851
+Z16 8C:/Users/Gorkem/Desktop/HW2-Fixed/datapath.sv
+Z17 FC:/Users/Gorkem/Desktop/HW2-Fixed/datapath.sv
+!i122 40
+L0 128 20
+Z18 VDg1SIo80bB@j0V0VzS_@n1
+Z19 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z20 !s108 1777393176.000000
+Z21 !s107 C:/Users/Gorkem/Desktop/HW2-Fixed/datapath.sv|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Gorkem/Desktop/HW2-Fixed/datapath.sv|
+!i113 0
+Z23 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
 valudec
-Z2 2controller.sv|controller_testbench.sv
-Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z4 !s110 1777139619
+Z24 2C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv
+R12
+Z25 !s110 1777393175
 !i10b 1
 !s100 ]a9Y`=7Sa92`j93o1kS153
-I?JOk`FboS78Y5fBnhgDfE3
+I>j:LKdVRLz@`lIcA1C@[^0
 S1
-Z5 dC:/Users/Gorkem/Desktop/HW2-Fixed
-Z6 w1777139121
-Z7 8controller.sv
-Z8 Fcontroller.sv
-!i122 2
+R14
+Z26 w1777139121
+Z27 8C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv
+Z28 FC:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv
+!i122 38
 L0 216 29
-Z9 VDg1SIo80bB@j0V0VzS_@n1
-Z10 OL;L;2024.3;79
+R18
+R19
 r1
 !s85 0
 31
-Z11 !s108 1777139619.000000
-Z12 !s107 controller_testbench.sv|controller.sv|
-Z13 !s90 -reportprogress|300|-sv|controller.sv|controller_testbench.sv|
+Z29 !s108 1777393175.000000
+Z30 !s107 C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Gorkem/Desktop/HW2-Fixed/controller.sv|
 !i113 0
-Z14 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+R23
+R7
 vcontroller
-R2
-R3
-R4
+R24
+R12
+R25
 !i10b 1
 !s100 GSadlbQ1QB_gCc9QBfg>=0
-IJ08K1^U2b^9T`7S;MC<Td0
+IbnY>VKY>^mkL3FX4RFgfz3
 S1
-R5
-R6
-R7
-R8
-!i122 2
+R14
+R26
+R27
+R28
+!i122 38
 L0 1 52
-R9
-R10
+R18
+R19
 r1
 !s85 0
 31
+R29
+R30
+R31
+!i113 0
+R23
+R7
+vcontroller_testbench
+2C:\Users\Gorkem\Desktop\HW2-Fixed\controller_testbench.sv
+R12
+R13
+!i10b 1
+!s100 k5UiHL[h^7@h5:l6R5zWA3
+IY4CaE479YHN;laVQH5KZL0
+S1
+R14
+w1777390321
+8C:\Users\Gorkem\Desktop\HW2-Fixed\controller_testbench.sv
+FC:\Users\Gorkem\Desktop\HW2-Fixed\controller_testbench.sv
+!i122 39
+L0 6 80
+R18
+R19
+r1
+!s85 0
+31
+R20
+!s107 C:\\Users\\Gorkem\\Desktop\\HW2-Fixed\\controller_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\Gorkem\Desktop\HW2-Fixed\controller_testbench.sv|
+!i113 0
+R23
+R7
+vdatapath
 R11
 R12
 R13
-!i113 0
+!i10b 1
+!s100 GXG>J^RLaZfz7DNl^gl4Q1
+IH=9VK=XjYXKB?;_@85nCU0
+S1
 R14
-R1
+R15
+R16
+R17
+!i122 40
+L0 1 98
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R7
+vextend
+R11
+R12
+R13
+!i10b 1
+!s100 G0zaVN05JV>kjHCKYW8i@0
+I_h]@KF=Y74JU:z9O`aPgW3
+S1
+R14
+R15
+R16
+R17
+!i122 40
+L0 113 14
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R7
 vinstrdec
-R2
-R3
-R4
+R24
+R12
+R25
 !i10b 1
 !s100 I>a^^_KW^TVj912DQl<Tj3
-Ia0`=no[d[^<RainX_9]<C2
+IikH36kU5kY4gKg=dJPFOm1
 S1
-R5
-R6
-R7
-R8
-!i122 2
+R14
+R26
+R27
+R28
+!i122 38
 L0 246 17
-R9
-R10
+R18
+R19
 r1
 !s85 0
 31
-R11
-R12
-R13
+R29
+R30
+R31
 !i113 0
-R14
-R1
+R23
+R7
 vmaindec
-R2
-R3
-R4
+R24
+R12
+R25
 !i10b 1
 !s100 VnS<QHlEeH]Y5e]XP4TOW0
-Idh30P>[XOSigko=n=:kh>2
+I0=Y05V;KMe31_@?gQgc=E0
 S1
-R5
-R6
-R7
-R8
-!i122 2
+R14
+R26
+R27
+R28
+!i122 38
 L0 54 161
-R9
-R10
+R18
+R19
 r1
 !s85 0
 31
-R11
-R12
-R13
+R29
+R30
+R31
 !i113 0
-R14
-R1
-vtestbench
-R2
-R3
-R4
+R23
+R7
+vmemory
+Z32 2C:/Users/Gorkem/Desktop/HW2-Fixed/top.sv
+R12
+Z33 !s110 1777393177
 !i10b 1
-!s100 8<V;FofKTfbVa_KFoU?fP3
-IE4i0OZfN6=ekNLJQUMAIH1
+!s100 SgOPDXM3L:Fan2dOCJj;e2
+I=T9]mT`d2@b3W3MOY8fVE3
 S1
-R5
-w1777043303
-8controller_testbench.sv
-Fcontroller_testbench.sv
-!i122 2
-L0 6 80
-R9
-R10
+R14
+Z34 w1777140331
+Z35 8C:/Users/Gorkem/Desktop/HW2-Fixed/top.sv
+Z36 FC:/Users/Gorkem/Desktop/HW2-Fixed/top.sv
+!i122 42
+L0 29 17
+R18
+R19
 r1
 !s85 0
 31
+Z37 !s108 1777393177.000000
+Z38 !s107 C:/Users/Gorkem/Desktop/HW2-Fixed/top.sv|
+Z39 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Gorkem/Desktop/HW2-Fixed/top.sv|
+!i113 0
+R23
+R7
+vregfile
 R11
 R12
 R13
-!i113 0
+!i10b 1
+!s100 6EfV=2Cn[nJ_37A]5M^HJ1
+II8?><z?gT>oP5mDzbQhG42
+S1
 R14
-R1
+R15
+R16
+R17
+!i122 40
+L0 100 12
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R7
+vriscv
+2C:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv
+R12
+R33
+!i10b 1
+!s100 E2ilBH_<N03W:LBL;SCXR1
+ILLA_FN5[O7KKVC7zNQiEn2
+S1
+R14
+w1777140355
+8C:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv
+FC:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv
+!i122 41
+L0 1 65
+R18
+R19
+r1
+!s85 0
+31
+R37
+!s107 C:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Gorkem/Desktop/HW2-Fixed/riscv.sv|
+!i113 0
+R23
+R7
+vriscv_testbench
+Z40 2C:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv
+R12
+!s110 1777393178
+!i10b 1
+!s100 b]bQO];ze1l`0Rn_Cb8g]0
+Ie`8=0IiRKAnVhRAbL>z=C2
+S1
+R14
+w1777390441
+Z41 8C:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv
+Z42 FC:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv
+!i122 43
+Z43 L0 1 37
+R18
+R19
+r1
+!s85 0
+31
+!s108 1777393178.000000
+Z44 !s107 C:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv|
+Z45 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Gorkem/Desktop/HW2-Fixed/riscv_testbench.sv|
+!i113 0
+R23
+R7
+vtestbench
+R40
+R12
+!s110 1777390400
+!i10b 1
+!s100 L3;b5UQYKASI]3UfU_7V81
+I1I5XYDIh>oN:N75`A=GnW2
+S1
+R14
+w1777387009
+R41
+R42
+!i122 19
+R43
+R18
+R19
+r1
+!s85 0
+31
+!s108 1777390400.000000
+R44
+R45
+!i113 0
+R23
+R7
+vtop
+R32
+R12
+R33
+!i10b 1
+!s100 M7OGB:59R]AUT04JncJ6I1
+INMHLXDYP]CjY:H_=@8`D70
+S1
+R14
+R34
+R35
+R36
+!i122 42
+L0 1 27
+R18
+R19
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 0
+R23
+R7
